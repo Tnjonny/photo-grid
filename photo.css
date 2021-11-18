@@ -41,6 +41,12 @@ body {
     grid-auto-rows: 240px;
 }
 
+.pg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (min-width:600px ){
   .card-tall {
     grid-row: span 2 / auto;
